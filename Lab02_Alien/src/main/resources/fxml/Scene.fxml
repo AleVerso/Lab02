@@ -46,7 +46,7 @@
             </Button>
             <ImageView fitHeight="51.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/alien/Alien-512.png" />
+                  <Image url="@../Alien-512.png" />
                </image>
                <HBox.margin>
                   <Insets bottom="20.0" left="30.0" right="10.0" />
@@ -58,7 +58,7 @@
    <bottom>
       <VBox BorderPane.alignment="CENTER">
          <children>
-            <TextArea fx:id="txtRisultato" promptText="Welcome to Alien Dictionary v2021..." />
+            <TextArea fx:id="txtRisultato" editable="false" promptText="Welcome to Alien Dictionary v2021..." />
             <Button fx:id="btnReset" contentDisplay="CENTER" mnemonicParsing="false" onAction="#doReset" text="Clear Text">
                <VBox.margin>
                   <Insets bottom="10.0" right="10.0" top="10.0" />
